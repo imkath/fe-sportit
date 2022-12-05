@@ -367,8 +367,12 @@ footer .bottom .content nav ul.nav {
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
-  column-gap: 85px;
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10%;
 }
 
 footer .bottom .content nav ul.nav li {
@@ -550,10 +554,6 @@ footer .bottom .copyright {
 
   footer .bottom .content nav {
     width: 33.33%;
-  }
-
-  footer .bottom .content nav ul.nav {
-    gap: 200px;
   }
 
   footer .bottom .content form {
